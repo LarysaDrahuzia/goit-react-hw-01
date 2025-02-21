@@ -1,7 +1,7 @@
 .table {
   margin-top: 30px;
   table-layout: fixed;
-  width: 70%;
+  width: 1000px;
   border-collapse: collapse;
   border: 3px solid #000;
   margin-left: auto;
@@ -14,6 +14,7 @@
 
 .col {
   color: #fafafa;
+  padding: 8px;
 }
 
 .transactionData .row:nth-child(2n + 1) {
@@ -25,15 +26,13 @@
 }
 
 .type,
-.currency {
-  padding-left: 100px;
+.currency,
+.amount {
+  text-align: center;
+  padding: 8px;
+  border: 3px solid #000;
 }
 
 .type {
   text-transform: uppercase;
-}
-
-.amount {
-  text-align: right;
-  padding-right: 100px;
 }

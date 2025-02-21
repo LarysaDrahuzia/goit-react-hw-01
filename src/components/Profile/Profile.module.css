@@ -1,0 +1,61 @@
+.container {
+  border: none;
+  border-radius: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  gap: 10px;
+  background-color: #e0ffff;
+}
+
+.user {
+  text-align: center;
+
+  object-fit: cover;
+}
+
+.image {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.tag,
+.location {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  background-color: #afeeee;
+  align-items: center;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.nick,
+.numb {
+  display: block;
+  text-align: center;
+  padding-block: 4px;
+}
+
+.nick {
+  font-weight: 600;
+}

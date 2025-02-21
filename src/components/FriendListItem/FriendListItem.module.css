@@ -1,0 +1,31 @@
+.item {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100px;
+  background-color: ivory;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.online,
+.offline {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

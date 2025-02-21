@@ -1,0 +1,39 @@
+.table {
+  margin-top: 30px;
+  table-layout: fixed;
+  width: 70%;
+  border-collapse: collapse;
+  border: 3px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title .row {
+  background-color: #000;
+}
+
+.col {
+  color: #fafafa;
+}
+
+.transactionData .row:nth-child(2n + 1) {
+  background-color: #a9a9a9;
+}
+
+.transactionData .row:nth-child(2n) {
+  background-color: #cccccc;
+}
+
+.type,
+.currency {
+  padding-left: 100px;
+}
+
+.type {
+  text-transform: uppercase;
+}
+
+.amount {
+  text-align: right;
+  padding-right: 100px;
+}

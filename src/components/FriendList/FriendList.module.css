@@ -1,0 +1,7 @@
+.friendList {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
